@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">DevOps<span class="logo-accent">Portfolio</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h4 class="subtitle">Hello, I'm</h4>
+                    <h1 class="title">Premkumar <span class="highlight">DevOps</span> Engineer</h1>
+                    <p class="description">I build, automate, and optimize cloud infrastructure and CI/CD pipelines to deliver scalable and reliable applications.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">View Projects</a>
+                        <a href="#contact" class="btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Deployed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>99.9%</h3>
+                            <p>Uptime Achieved</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Monitoring</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="close"></span>
+                                <span class="minimize"></span>
+                                <span class="maximize"></span>
+                            </div>
+                            <span class="terminal-title">bash ~/devops-portfolio</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="terminal-prompt">$</span> kubectl get pods</p>
+                            <p>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READY&nbsp;&nbsp;STATUS&nbsp;&nbsp;RESTARTS&nbsp;&nbsp;AGE</p>
+                            <p>frontend&nbsp;&nbsp;&nbsp;&nbsp;1/1&nbsp;&nbsp;&nbsp;Running&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2d</p>
+                            <p>api&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2/2&nbsp;&nbsp;&nbsp;Running&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2d</p>
+                            <p>database&nbsp;&nbsp;&nbsp;1/1&nbsp;&nbsp;&nbsp;Running&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2d</p>
+                            <p><span class="terminal-prompt">$</span> <span class="cursor">█</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">DevOps <span class="highlight">Skills</span></h2>
+            <div class="skills-grid">
+                <!-- Cloud Platforms -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag aws">AWS</span>
+                        <span class="skill-tag azure">Azure</span>
+                        <span class="skill-tag gcp">GCP</span>
+                        <span class="skill-tag digitalocean">DigitalOcean</span>
+                    </div>
+                </div>
+                
+                <!-- Containerization -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-box"></i> Containerization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag docker">Docker</span>
+                        <span class="skill-tag kubernetes">Kubernetes</span>
+                        <span class="skill-tag helm">Helm</span>
+                        <span class="skill-tag openshift">OpenShift</span>
+                    </div>
+                </div>
+                
+                <!-- CI/CD -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-sync-alt"></i> CI/CD</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag jenkins">Jenkins</span>
+                        <span class="skill-tag gitlab">GitLab CI</span>
+                        <span class="skill-tag github">GitHub Actions</span>
+                        <span class="skill-tag argo">ArgoCD</span>
+                    </div>
+                </div>
+                
+                <!-- Infrastructure as Code -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Infrastructure as Code</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag terraform">Terraform</span>
+                        <span class="skill-tag ansible">Ansible</span>
+                        <span class="skill-tag pulumi">Pulumi</span>
+                        <span class="skill-tag cloudformation">CloudFormation</span>
+                    </div>
+                </div>
+                
+                <!-- Monitoring & Observability -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Monitoring</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag prometheus">Prometheus</span>
+                        <span class="skill-tag grafana">Grafana</span>
+                        <span class="skill-tag elk">ELK Stack</span>
+                        <span class="skill-tag datadog">Datadog</span>
+                    </div>
+                </div>
+                
+                <!-- Security -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag vault">Vault</span>
+                        <span class="skill-tag sonarqube">SonarQube</span>
+                        <span class="skill-tag trivy">Trivy</span>
+                        <span class="skill-tag opa">OPA</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skill Level Visualization -->
+            <div class="skill-levels">
+                <h3>Proficiency Levels</h3>
+                <div class="level-bar">
+                    <span class="level-label">Kubernetes</span>
+                    <div class="level-container">
+                        <div class="level-fill" data-level="95"></div>
+                    </div>
+                </div>
+                <div class="level-bar">
+                    <span class="level-label">Terraform</span>
+                    <div class="level-container">
+                        <div class="level-fill" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="level-bar">
+                    <span class="level-label">AWS</span>
+                    <div class="level-container">
+                        <div class="level-fill" data-level="88"></div>
+                    </div>
+                </div>
+                <div class="level-bar">
+                    <span class="level-label">CI/CD Pipelines</span>
+                    <div class="level-container">
+                        <div class="level-fill" data-level="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">E-commerce DevOps Platform</h3>
+                    <p class="project-description">End-to-end CI/CD pipeline with Kubernetes, Terraform, and monitoring for scalable e-commerce platform.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">Terraform</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Jenkins</span>
+                    </div>
+                    <button class="project-details-btn" data-project="1">View Details</button>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Multi-Cloud Kubernetes Cluster</h3>
+                    <p class="project-description">Hybrid cloud Kubernetes deployment across AWS, Azure, and GCP with GitOps workflow.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Multi-Cloud</span>
+                        <span class="tech-tag">ArgoCD</span>
+                        <span class="tech-tag">Helm</span>
+                        <span class="tech-tag">Prometheus</span>
+                    </div>
+                    <button class="project-details-btn" data-project="2">View Details</button>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">DevSecOps Pipeline</h3>
+                    <p class="project-description">Automated security scanning, vulnerability assessment, and compliance as code pipeline.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Security</span>
+                        <span class="tech-tag">SAST/DAST</span>
+                        <span class="tech-tag">Vault</span>
+                        <span class="tech-tag">OPA</span>
+                    </div>
+                    <button class="project-details-btn" data-project="3">View Details</button>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Observability Stack</h3>
+                    <p class="project-description">Centralized monitoring, logging, and tracing with Prometheus, Grafana, Loki, and Jaeger.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Monitoring</span>
+                        <span class="tech-tag">Grafana</span>
+                        <span class="tech-tag">ELK</span>
+                        <span class="tech-tag">Jaeger</span>
+                    </div>
+                    <button class="project-details-btn" data-project="4">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2026 - Present</div>
+                    <div class="timeline-content">
+                        <h3>DevOps Engineer</h3>
+                        <h4>CloudTech Solutions</h4>
+                        <ul>
+                            <li>Reduced deployment time by 70% through CI/CD pipeline optimization</li>
+                            <li>Implemented Kubernetes cluster serving 100+ microservices</li>
+                            <li>Reduced cloud costs by 40% through resource optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>DevOps Engineer</h3>
+                        <h4>TechStartup Inc.</h4>
+                        <ul>
+                            <li>Built infrastructure as code using Terraform</li>
+                            <li>Implemented monitoring and alerting system</li>
+                            <li>Migrated legacy systems to cloud-native architecture</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Systems Administrator</h3>
+                        <h4>Enterprise Corp</h4>
+                        <ul>
+                            <li>Managed Linux servers and virtualization</li>
+                            <li>Implemented backup and disaster recovery</li>
+                            <li>Automated routine tasks with scripting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & <span class="highlight">Badges</span></h2>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <img src="https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="CKA">
+                    <h3>Certified Kubernetes Administrator</h3>
+                    <p>The Linux Foundation</p>
+                </div>
+                <div class="cert-card">
+                    <img src="https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" alt="AWS DevOps">
+                    <h3>AWS Certified DevOps Engineer</h3>
+                    <p>Amazon Web Services</p>
+                </div>
+                <div class="cert-card">
+                    <img src="https://images.credly.com/size/680x680/images/99289602-861e-4929-8277-773e63a2fa6f/image.png" alt="Terraform">
+                    <h3>HashiCorp Certified: Terraform Associate</h3>
+                    <p>HashiCorp</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vpremk0@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/devopsprem</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/devopsprem</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 DevOps Portfolio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dev"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
